@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html lang="ru-RU">
+	<head>
+		<meta charset="UTF-8">
+		<title>Яндекс - школа</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="css/themes/base/jquery.ui.all.css">
+		<link media="print, handheld" rel="stylesheet" href="css/print.css">
+		<!--[if lt IE 9]>
+		<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<script src="js/jquery-1.8.0.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+		<script src="js/jquery.ui.core.js"></script>
+		<script src="js/jquery.ui.widget.js"></script>
+		<script src="js/jquery.ui.tabs.js"></script>
+		<link rel="stylesheet" href="css/demos.css">
+
+		<script>
+			$(function() {
+				$( "#tabs" ).tabs({
+					cookie: {
+						// store cookie for a day, without, it would be a session cookie
+						expires: 1
+					}
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+		<header>
+			<div class="header-wraper">
+				<h1>Анкета школы разработки интерфейсов</h1>
+				
+			</div>
+		</header>
+		
+		<div class="inner">
+			<div class="content-wraper demo">
+				
+				<div class="content" id="tabs">
+
+					<div class="button-box">
+						<ul>
+							<li><a href="#tabs-1" class="btn">Общие вопросы</a></li>
+							<li><a href="#tabs-2" class="btn">Опыт разработки</a></li>
+						</ul>
+					</div>
+
+					<div id="tabs-1">
+						
+						<dl class="about-me">
+							<dt>Фамилия, имя, отчество: </dt>
+							<dd>Тихомирова Владислава Владимировна</dd>
+							<dt>Е-mail:</dt>
+							<dd>miracle.sun@gmail.com</dd>
+							<dt>Телефон:</dt>
+							<dd>+38(066)6882780</dd>
+							<dt>Город, в котором живёте:</dt>
+							<dd>Киев, с сентября месяца переезжаю в Москву</dd>
+							<dt>Вуз, факультет, кафедра:</dt>
+							<dd>НТУУ "КПИ", Прикладная математика</dd>
+							<dt>Год окончания вуза:</dt>
+							<dd>2009</dd>
+							<dt>На каком уровне владеете английским языком?</dt>
+							<dd class="top-dd">Pre intermediate</dd>
+							<dt>Чего вы ожидаете от участия в Школе?</dt>
+							<dd class="top-dd">Интересного опыта во время учебы и дальнешей возможности работы в Яндексе</dd>
+							<dt>Откуда вы о нас узнали?</dt>
+							<dd>Постоянно слежу за объявлениями Яндекс.События</dd>
+							<dt>Сколько времени вы готовы уделять работе в Яндексе?</dt>
+							<dd class="top-dd">Полный рабочий день</dd>
+						</dl>
+					</div>
+
+					<div id="tabs-2">
+						<div class="dialog-box">
+							<div class="question">Расскажите нам о вашем опыте разработки. Ничего не упускайте: это может быть как серьезный интерфейс, так и просто домашняя страничка.</div>
+							<div class="answer">
+								Я начала верстать на 4 курсе универа, работала в компании «Emedia RnD» 2 года, затем 2 года в компании Materialise. Самым большим проектом могу назвать следующий — 
+								<a href="http://i.materialise.com/">i.materialise.com »</a>
+							</div>
+						</div>
+						<div class="dialog-box">
+							<div class="question">Какие языки программирования, фреймворки и технологии вы использовали? Сложились ли у вас личные предпочтения?</div>
+							<div class="answer">
+								Я верстала интерфейсы для проектов написанных на C#. Кроме html и css использовала Javascript и jQuery. 
+							</div>
+						</div>
+						<div class="dialog-box">
+							<div class="question">Какие редакторы и среды разработки вы использовали? Чем обычно пользуетесь?</div>
+							<div class="answer">
+								Для рабочих проектов использую Visual Studi0 2010, для личный проектов Sublime Text 2.
+							</div>
+						</div>
+						<div class="dialog-box">
+							<div class="question">С какими ОС приходилось сталкиваться? Для каких целей вы их использовали?</div>
+							<div class="answer">
+								Windows и Mac OS. Для работы и личного использования. 
+							</div>
+						</div>
+						<div class="dialog-box">
+							<div class="question">Приходилось ли вам пользоваться системами контроля версий? Если да, то какими? Какая из них вам нравится больше всего?</div>
+							<div class="answer">
+								Я работала с SVN и TFS. В TFS есть учет тасков, что удобно использовать при комитах.
+							</div>
+						</div>
+						<div class="dialog-box">
+							<div class="question">Использовали ли вы системы постановки и ведения задач?</div>
+							<div class="answer">
+								Баг-треккер созданный специально для нашей компании. И с недавнего времени TFS.
+							</div>
+						</div>
+						<div class="dialog-box">
+							<div class="question">Какие полезные для фронтенд-разработчика ресурсы вы используете и можете посоветовать?</div>
+							<div class="answer">
+								<a href="http://web-standards.ru/category/articles/">web-standards.ru »</a>
+								<a href="http://javascript.ru/">javascript.ru »</a>
+								<a href="http://stackoverflow.com/">stackoverflow.com »</a>
+							</div>
+						</div>
+						<div class="dialog-box">
+							<div class="question">Работали ли вы где-нибудь? Какие у вас были должностные обязанности? Есть ли опыт работы в команде?</div>
+							<div class="answer">
+								Да, я работала в комании Materialise в команде с дизайнером и верстальщиком. Отвечала за верстку.
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+		<footer>
+			<div class="footer-wraper">
+				<p class="source">miracle.sun :)</p>
+			</div>
+		</footer>
+		
+	</body>
+
+</html>

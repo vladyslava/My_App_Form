@@ -1,0 +1,6 @@
+.ui-tabs {
+	display: block !important;
+}
+.ui-tabs .ui-tabs-hide {
+	display: block !important;
+}

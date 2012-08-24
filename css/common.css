@@ -1,0 +1,152 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+body {
+    position:relative;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+body {
+	padding: 0px;
+	margin: 0px;
+	color: #5E6A71;
+	position: relative;
+}
+.content {
+	margin: 15px 0 55px;
+}
+.content-wraper {
+	width: 900px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+header, footer {
+	background: url("../img/bg.png") bottom left #000;
+	height: 55px;
+}
+.header-wraper {
+	width: 900px;
+	margin: 0 auto;
+}
+.header-wraper {
+		position: relative;
+}
+.header-wraper h1 {
+	color: #fff;
+	font-size: 22px;
+	line-height: 52px;
+	width: 500px;
+}
+dl.about-me {
+	margin-top: 15px;
+}
+dt {
+	width: 300px;
+	text-align: right;
+	padding: 0px;
+	margin: 0px;
+}
+dd {
+	margin-top: -25px;
+	margin-left: 310px;
+	margin-bottom: 25px;
+	border: 1px solid #bbb;
+	padding: 10px;
+	background: #fbfbfb;
+	width: 400px;
+-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+		border-radius: 5px;
+
+	-webkit-box-shadow: #aaa 0 0 5px;
+       -moz-box-shadow: #aaa 0 0 5px;
+            box-shadow: #aaa 0 0 5px;
+
+}
+dd.top-dd {
+	margin-top: -35px;
+}
+
+.button-box  {
+	position: absolute; 
+	top: 18px;
+	right: 150px;
+}
+	.button-box a.btn {
+		width: 130px;
+		font-size: 18px;
+		padding: 10px;
+		border: 1px solid #fff;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+			border-radius: 5px;
+		cursor: pointer;
+		color: #fff;
+		margin-right: 15px;
+		overflow: hidden;
+	}
+		.button-box a.btn:hover {
+			color: #aaa;
+			border-color: #aaa;
+		}
+
+.dialog-box {
+	clear: left;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.question {
+	width: 300px;
+	line-height: 22px;
+	display: block;
+	overflow: hidden;
+	float: left;
+	margin-right: 10px;
+	margin-top: 3px;
+	text-align: right;
+}
+.answer { 
+	width: 400px; 
+	float: left; 
+	border: 1px solid #bbb;
+	padding: 10px;
+	background: #fbfbfb;
+	width: 400px;
+	min-height: 60px;
+	margin-top: 5px;
+-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+		border-radius: 5px;
+
+	-webkit-box-shadow: #aaa 0 0 5px;
+       -moz-box-shadow: #aaa 0 0 5px;
+            box-shadow: #aaa 0 0 5px;
+}
+	.answer a {
+		color: #00B9E4;
+		font-weight: bold;
+		display: block;
+		margin-bottom: 5px;
+	}
+		.answer a:hover {
+			color: #3A547C;;
+		}
+
+footer {
+	clear: left;
+	width: 100%;
+    position: absolute;
+    left:0;
+    bottom: 0;
+}
+.footer-wraper  p.source {
+	color: #fff;
+	font-size: 14px;
+	line-height: 55px;
+	text-align: right;
+	margin-right: 150px;
+}
